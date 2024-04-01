@@ -1,8 +1,12 @@
+import { MdMail } from "react-icons/md";
+
 const Form = () => {
   return (
     <>
       {/* FORM WRAPPER */}
       <div className=" mt-10 bg-cyan-200 max-w-96 h-auto p-10 flex flex-col text-center align-middle justify-center rounded ">
+        <MdMail size={48} className=" self-center mb-5 text-cyan-900" />
+
         <h1 className=" text-2xl mb-10">Subscribe for a surprise !</h1>
         <form action="#">
           {/* FIRST NAME */}
